@@ -1,0 +1,8 @@
+version: "3"
+services:
+  java:
+    image: eclipse-temurin:21
+    container_name: javaApp
+    ports:
+        - 8000:8000
+    tty: true
