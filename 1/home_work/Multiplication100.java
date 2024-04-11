@@ -18,7 +18,7 @@ public class StandardInput {
         num *= 100;
 
         // 出力
-        System.out.printf("計算結果：%d",num);
+        System.out.printf("計算結果：%d\n",num);
 
         // Scannerを閉じる
         in.close();
